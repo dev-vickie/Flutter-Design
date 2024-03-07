@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:design_layout/widgets/custom_appbar.dart';
-import 'package:design_layout/widgets/search.dart';
-import 'package:design_layout/widgets/vertical_list_item.dart';
+import 'package:design_layout/homepage/widgets/custom_appbar.dart';
+import 'package:design_layout/homepage/widgets/search.dart';
+import 'package:design_layout/homepage/widgets/vertical_list_item.dart';
 import 'package:flutter/material.dart';
 
 import 'widgets/horizontal_list_item.dart';
