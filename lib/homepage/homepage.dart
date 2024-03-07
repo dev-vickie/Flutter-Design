@@ -36,17 +36,17 @@ class HomePage extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   children: [
                     HorizontalListItem(
-                      houseName: "American District",
+                      houseName: "American Classic ",
                       address: "Highway 101",
                       imagePath: "assets/images/house1.jpg",
                     ),
                     HorizontalListItem(
-                      houseName: "African House",
+                      houseName: "African House ",
                       address: "Highway 102",
                       imagePath: "assets/images/house2.jpg",
                     ),
                     HorizontalListItem(
-                      houseName: "Latin American House",
+                      houseName: "Latin American House ",
                       address: "Highway 103",
                       imagePath: "assets/images/house3.jpg",
                     ),

@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
 class HorizontalList extends StatefulWidget {
-  const HorizontalList({super.key});
+  final String imagePath2;
+  const HorizontalList({
+    super.key,
+    required this.imagePath2,
+  });
 
   @override
   State<HorizontalList> createState() => _HorizontalListState();
@@ -15,9 +19,11 @@ class _HorizontalListState extends State<HorizontalList> {
       margin: const EdgeInsets.only(right: 20),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(7),
-          image: const DecorationImage(
+          image: DecorationImage(
               fit: BoxFit.cover,
-              image: AssetImage('assets/images/house1.jpg'))),
+              image: AssetImage(
+                widget.imagePath2,
+              ))),
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(7),

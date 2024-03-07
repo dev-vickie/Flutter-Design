@@ -58,12 +58,12 @@ class DetailsPage extends StatelessWidget {
                 ),
                 //house description
                 RichText(
-                    text: const TextSpan(children: [
+                    text:  TextSpan(children: [
                   TextSpan(
                     text:
-                        "American Classic House , this house has always been a target for property companies because of its ancient style but very attractive ",
+                        "$houseName   , this house has always been a target for property companies because of its ancient style but very attractive ",
                   ),
-                  TextSpan(
+                  const TextSpan(
                       text: "Read More,",
                       style: TextStyle(color: Colors.orange))
                 ])),
@@ -85,15 +85,15 @@ class DetailsPage extends StatelessWidget {
                   height: 70,
                   child: ListView(
                     scrollDirection: Axis.horizontal,
-                    children: const [
-                      HorizontalList(),
-                      HorizontalList(),
-                      HorizontalList(),
-                      HorizontalList(),
-                      HorizontalList(),
-                      HorizontalList(),
-                      HorizontalList(),
-                      HorizontalList(),
+                    children:  [
+                      HorizontalList(imagePath2: imagepath1,),
+                      HorizontalList(imagePath2: imagepath1,),
+                      HorizontalList(imagePath2: imagepath1,),
+                      HorizontalList(imagePath2: imagepath1,),
+                      HorizontalList(imagePath2: imagepath1,),
+                      HorizontalList(imagePath2: imagepath1,),
+                      HorizontalList(imagePath2: imagepath1,),
+                      HorizontalList(imagePath2: imagepath1,),
                     ],
                   ),
                 ),
