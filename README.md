@@ -1,16 +1,97 @@
-# design_layout
+# Contribution guide
 
-A new Flutter project.
+#### If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
 
-## Getting Started
+## 1.Fork this repository
 
-This project is a starting point for a Flutter application.
+Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
 
-A few resources to get you started if this is your first Flutter project:
+## 2.Clone the repository
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Now clone the forked repository to your machine.
+Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Open a terminal and run the following git command:
+
+```
+git clone "url you just copied"
+```
+
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+
+
+
+For example:
+
+```
+git clone https://github.com/dev-vickie/Flutter-Design.git
+```
+
+
+## 3.Create a branch
+
+Change to the repository directory on your computer (if you are not already there):
+
+```
+cd project-name
+```
+
+Now create a branch using the `git switch` command.You can name your branch anything you want,even your name,but keep it short:
+
+```
+git switch -c your-new-branch-name
+```
+
+For example:
+
+```
+git switch -c add-ui-changes
+```
+
+## 4.Make necessary changes you want to code and commit those changes
+Here is where you will add code your next ui screen until you are satisfied with the changes
+
+
+If you go to the project directory and execute the command `git status`, you'll see there are changes.
+
+Add those changes to the branch you just created using the `git add` command:
+
+```
+git add .
+```
+
+Now commit those changes using the `git commit` command:
+
+```
+git commit -m "Added The Details Page"
+```
+
+
+## 5.Push changes to GitHub
+
+Push your changes using the command `git push`:
+
+```
+git push origin -u your-branch-name
+```
+
+replacing `your-branch-name` with the name of the branch you created earlier.
+
+
+
+## 6.Submit your changes for review
+
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
+
+
+
+Now submit the pull request - with a description of the changes you have made
+
+Soon your changes will be reviewed and merged into the main branch of this project. You will get a notification email once the changes have been merged.
+
+Don't forget to star the repo 🤩 
+
+
+
+
